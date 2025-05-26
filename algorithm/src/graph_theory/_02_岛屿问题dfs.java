@@ -2,7 +2,7 @@ package graph_theory;
 
 import java.util.Scanner;
 
-public class _02_岛屿数量_1 {
+public class _02_岛屿问题dfs {
     public static int[][] dir = {{0, 1}, {1, 0},{0 ,-1},{-1, 0}};
     public static void dfs(boolean[][] visited, int x, int y, int[][] grid){
         // 遍历当前结点的四周
