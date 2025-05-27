@@ -2,6 +2,8 @@ package Hot100_Hash;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class leecode_128_最长连续序列 {
     public static void main(String[] args) {
@@ -10,26 +12,28 @@ public class leecode_128_最长连续序列 {
 //      System.out.println(Arrays.toString(nums));
         System.out.println(longestConsecutive(nums));
     }
-    public static int longestConsecutive(int[] nums){
-        int max = 0;
-        //先排序
-        Arrays.sort(nums);
-        if(nums.length == 1){
-            return 1;
+    public static int longestConsecutive(int[] nums) {
+        Set<Integer> numSet = new HashSet<>();
+        for (int num : nums) {
+            numSet.add(num);
         }
-        for(int i = 0; i < nums.length; i ++){
-            int count = 1;
-            for(int j = i + 1; j < nums.length; j ++){
-                if(nums[j] == nums[j - 1] + 1){
-                    count ++;
-                }else {
-                    break;
+
+        int longestStreak = 0;
+
+        for (int num : numSet) {
+            if (!numSet.contains(num - 1)) {
+                int currentNum = num;
+                int currentStreak = 1;
+
+                while (numSet.contains(currentNum + 1)) {
+                    currentNum += 1;
+                    currentStreak += 1;
                 }
-            }
-            if(count > max){
-                max = count;
+
+                longestStreak = Math.max(longestStreak, currentStreak);
             }
         }
-        return max;
+
+        return longestStreak;
     }
 }
