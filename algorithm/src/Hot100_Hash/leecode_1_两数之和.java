@@ -16,6 +16,7 @@ public class leecode_1_两数之和 {
         int[] arr = new int[2];
         //边界条件
         if(nums==null || nums.length == 0){
+
             return arr;
         }
         Map<Integer, Integer> hashmap = new HashMap<>();
