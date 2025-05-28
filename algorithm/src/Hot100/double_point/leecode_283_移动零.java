@@ -16,6 +16,7 @@ public class leecode_283_移动零 {
             }
             int j = i;
             while(j < nums.length && nums[j] == 0){
+
                 j ++;
             }
             if(j < nums.length){
