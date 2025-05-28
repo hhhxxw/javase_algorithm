@@ -1,6 +1,5 @@
-package Hot100_Hash;
+package Hot100.hash;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;

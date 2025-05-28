@@ -1,6 +1,5 @@
-package Hot100_Hash;
+package Hot100.hash;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;

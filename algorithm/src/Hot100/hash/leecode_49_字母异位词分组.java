@@ -1,4 +1,4 @@
-package Hot100_Hash;
+package Hot100.hash;
 
 import java.util.*;
 
