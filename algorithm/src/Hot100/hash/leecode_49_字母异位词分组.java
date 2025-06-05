@@ -2,6 +2,11 @@ package Hot100.hash;
 
 import java.util.*;
 
+/**
+ * Map + 字符数组排序
+ * @date 2025-06-03 21:11
+ */
+
 public class leecode_49_字母异位词分组 {
     public static void main(String[] args) {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
