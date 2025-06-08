@@ -28,6 +28,7 @@ public class leecode_189_轮转数组 {
         }
         for(int i = 0; i < len; i ++){
             nums[i] = deque.removeFirst();
+
         }
     }
 }
