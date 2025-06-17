@@ -11,6 +11,7 @@ public class leecode_234_回文链表 {
             arr[size ++] = head.val;
             head = head.next;
         }
+        
         int i = 0, j = size - 1;
         while(i < j){
             if(arr[i] == arr[j]){
