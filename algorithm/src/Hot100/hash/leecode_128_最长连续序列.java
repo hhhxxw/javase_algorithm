@@ -16,10 +16,14 @@ public class leecode_128_最长连续序列 {
         for (int num : nums) {
             numSet.add(num);
         }
+        /**
+         * @date 2025-07-10 14:42
+         */
 
         int longestStreak = 0;
 
         for (int num : numSet) {
+            // 要找最后一个元素
             if (!numSet.contains(num - 1)) {
                 int currentNum = num;
                 int currentStreak = 1;

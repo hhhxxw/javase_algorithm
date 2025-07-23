@@ -27,6 +27,25 @@ public class leecode_283_移动零 {
                 return;
             }
         }
+//        int i = 0, j =0;
+//        // 找到为零
+//        while(i < nums.length && j < nums.length){
+//            if(j == nums.length - 1){
+//                break;
+//            }
+//            while(nums[i] != 0){
+//                i ++;
+//            }
+//            // 找到不为零
+//            while(nums[j] == 0){
+//                j ++;
+//            }
+//            if(i != j){
+//                int test = nums[i];
+//                nums[i] = nums[j];
+//                nums[j] = test;
+//            }
+        }
 
-    }
+
 }

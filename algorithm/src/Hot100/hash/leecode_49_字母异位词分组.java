@@ -22,6 +22,7 @@ public class leecode_49_字母异位词分组 {
             Arrays.sort(charArray);
             String sortedStr = new String(charArray);
 
+            // 注意这里的逻辑，不管有没有相同字符串，都要添加到集合中，所以不能放到判断里面
             // 检查哈希表中是否存在该排序后的字符串作为键
             if (!map.containsKey(sortedStr)) {
                 map.put(sortedStr, new ArrayList<>());
@@ -33,6 +34,7 @@ public class leecode_49_字母异位词分组 {
         // 将哈希表中的所有值转换为列表并返回
         return new ArrayList<>(map.values());
     }
+
 
 
 }
