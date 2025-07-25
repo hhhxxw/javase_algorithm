@@ -1,7 +1,6 @@
 package Hot100.sliding_window;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**

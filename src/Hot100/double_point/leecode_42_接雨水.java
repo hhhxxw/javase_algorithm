@@ -1,7 +1,5 @@
 package Hot100.double_point;
 
-import java.sql.PreparedStatement;
-
 /**
  * 没有思路
  *

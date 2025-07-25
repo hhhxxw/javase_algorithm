@@ -1,9 +1,8 @@
-package map_study;
+package javase.map_study;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-import java.util.function.BiConsumer;
 
 /**
  * @author 一只咸鱼的大厂梦-hxw

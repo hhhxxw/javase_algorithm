@@ -1,6 +1,5 @@
 package Hot100.double_point;
 
-import javax.print.DocFlavor;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

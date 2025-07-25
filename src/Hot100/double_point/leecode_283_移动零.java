@@ -27,6 +27,7 @@ public class leecode_283_移动零 {
                 return;
             }
         }
+
 //        int i = 0, j =0;
 //        // 找到为零
 //        while(i < nums.length && j < nums.length){

@@ -1,4 +1,4 @@
-package lambda;
+package javase.lambda;
 
 import java.util.Arrays;
 import java.util.Comparator;

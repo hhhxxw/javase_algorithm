@@ -1,4 +1,4 @@
-package map_study;
+package javase.map_study;
 
 import java.util.LinkedHashMap;
 
